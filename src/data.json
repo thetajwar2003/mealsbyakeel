@@ -1,0 +1,33 @@
+{
+  "meals": [
+    {
+      "id": 1,
+      "name": "Chicken Tikka Masala",
+      "macros": {
+        "calories": "550 - 625 cals",
+        "protein": "50-55 g"
+      },
+      "img": "/chicken_tikka.png"
+    },
+    {
+      "id": 2,
+      "name": "Honey Garlic Chicken",
+      "macros": {
+        "calories": "550 - 625 cals",
+        "protein": "40-45 g"
+      },
+      "img": "/honey_garlic.png"
+    },
+    {
+      "id": 3,
+      "name": "Chicken w/ Egg Fried Rice",
+      "macros": {
+        "calories": "550 - 625 cals",
+        "protein": "45-50 g"
+      },
+      "img": "/egg_fried.png"
+    }
+  ],
+  "quantity": {},
+  "availability": {}
+}
