@@ -34,6 +34,32 @@
       "popularity": "HOT 🔥"
     }
   ],
-  "quantity": {},
+  "quantity": [
+    {
+      "type": "Basic",
+      "meals": 1,
+      "price": 7
+    },
+    {
+      "type": "Standard",
+      "meals": 2,
+      "price": 14
+    },
+    {
+      "type": "Middle",
+      "meals": 3,
+      "price": 21
+    },
+    {
+      "type": "Extra",
+      "meals": 5,
+      "price": 35
+    },
+    {
+      "type": "Special",
+      "meals": 7,
+      "price": 49
+    }
+  ],
   "availability": {}
 }
