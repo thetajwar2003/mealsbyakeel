@@ -6,4 +6,6 @@ export type Meal = {
     calories: string;
   };
   img: string;
+  desc: string;
+  popularity: string;
 };

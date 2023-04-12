@@ -7,7 +7,9 @@
         "calories": "550 - 625 cals",
         "protein": "50-55 g"
       },
-      "img": "/chicken_tikka.png"
+      "img": "/chicken_tikka.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat pellentesque elit, sit amet varius ex pellentesque eget. Nullam at purus orci. Cras viverra augue a orci hendrerit venenatis. Aliquam erat volutpat. Donec porta accumsan fermentum. Etiam maximus vel leo sed vestibulum. Sed a lectus libero. Vestibulum ut viverra sapien. Proin ut mauris sagittis, varius nulla ut, dignissim ipsum.",
+      "popularity": "HOT 🔥"
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
         "calories": "550 - 625 cals",
         "protein": "40-45 g"
       },
-      "img": "/honey_garlic.png"
+      "img": "/honey_garlic.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat pellentesque elit, sit amet varius ex pellentesque eget. Nullam at purus orci. Cras viverra augue a orci hendrerit venenatis. Aliquam erat volutpat. Donec porta accumsan fermentum. Etiam maximus vel leo sed vestibulum. Sed a lectus libero. Vestibulum ut viverra sapien. Proin ut mauris sagittis, varius nulla ut, dignissim ipsum.",
+      "popularity": "HOT 🔥"
     },
     {
       "id": 3,
@@ -25,7 +29,9 @@
         "calories": "550 - 625 cals",
         "protein": "45-50 g"
       },
-      "img": "/egg_fried.png"
+      "img": "/egg_fried.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat pellentesque elit, sit amet varius ex pellentesque eget. Nullam at purus orci. Cras viverra augue a orci hendrerit venenatis. Aliquam erat volutpat. Donec porta accumsan fermentum. Etiam maximus vel leo sed vestibulum. Sed a lectus libero. Vestibulum ut viverra sapien. Proin ut mauris sagittis, varius nulla ut, dignissim ipsum.",
+      "popularity": "HOT 🔥"
     }
   ],
   "quantity": {},

@@ -12,16 +12,18 @@ export default function Menu() {
     setCurrentMeal(cm);
   };
   return (
-    <>
-      <section
-        className={`text-gray-400 bg-gray-900 body-font ${
-          open ? "blur-2xl" : null
-        }`}
-      >
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap -m-4">
-            {data.meals.map((meal: Meal) => (
-              <div className="lg:w-1/3 md:w-1/2 p-4 w-full" key={meal.id}>
+    <main
+      className={`min-h-screen bg-akeel_navy text-gray-400 bg-gray-900 body-font 
+      ${open ? "blur-2xl" : null}`}
+    >
+      <div className="container px-5 py-24 mx-auto">
+        <div className="flex flex-wrap -m-4">
+          {data.meals.map((meal: Meal) => (
+            <div
+              className="lg:w-1/3 md:w-1/2 p-4 w-full text-center"
+              key={meal.id}
+            >
+              <button onClick={() => handleModal(meal)}>
                 <a className="block relative h-70 overflow-hidden">
                   <img
                     alt={meal.name}
@@ -33,24 +35,23 @@ export default function Menu() {
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     HOT 🔥
                   </h3>
-                  <button onClick={() => handleModal(meal)}>
-                    <h2 className="text-white title-font text-lg font-medium">
-                      {meal.name}
-                    </h2>
-                  </button>
+
+                  <h2 className="text-white title-font text-lg font-medium">
+                    {meal.name}
+                  </h2>
                 </div>
-              </div>
-            ))}
-            {open ? (
-              <MealModal
-                open={open}
-                openModal={setOpenModal}
-                meal={currentMeal}
-              />
-            ) : null}
-          </div>
+              </button>
+            </div>
+          ))}
+          {open ? (
+            <MealModal
+              open={open}
+              openModal={setOpenModal}
+              meal={currentMeal}
+            />
+          ) : null}
         </div>
-      </section>
-    </>
+      </div>
+    </main>
   );
 }
