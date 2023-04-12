@@ -10,7 +10,9 @@ export default function Selection() {
             Quantity Selection
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Choose the number of meals you'd like before choosing the dishes.
+            {
+              "Choose the number of meals you'd like before choosing the dishes."
+            }
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

@@ -9,12 +9,9 @@ export default function Intro() {
           Meals by Akeel at CCNY Campus!
         </h1>
         <p className="mb-4 leading-relaxed">
-          Asalamu'alaikum! (Peace be upon you!) I'm Akeel, and as a fellow CCNY
-          student I'd love to be your personal chef! As a student myself, I know
-          that eating healthy in college can be a struggle, which is why I would
-          love to meal prep for those who are dealing with this struggle (with
-          100% Zabiha Halal Meat!) Checkout some if the dishes I have made in
-          the past.
+          {
+            "Asalamu'alaikum! (Peace be upon you!) I'm Akeel, and as a fellow CCNY student I'd love to be your personal chef! As a student myself, I know that eating healthy in college can be a struggle, which is why I would love to meal prep for those who are dealing with this struggle (with 100% Zabiha Halal Meat!) Checkout some if the dishes I have made in the past."
+          }
         </p>
         <img
           className="object-cover object-center"
